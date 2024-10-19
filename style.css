@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 550px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+}
+
+.BoxLogo {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .BoxLogo {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1 {
+  color: white;
+  font-size: 1.7vw;
+}
+@media (max-width: 800px) {
+  .BoxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo h1 {
+    font-size: 3vw;
+  }
+}
+.BoxLogo img {
+  width: 6vw;
+}
+@media (max-width: 800px) {
+  .BoxLogo img {
+    width: 8vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo img {
+    width: 10vw;
+  }
+}
+
+nav {
+  width: 40vw;
+}
+@media (max-width: 800px) {
+  nav {
+    width: 45vw;
+  }
+}
+@media (max-width: 550px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  nav ul {
+    font-size: 2.2vw;
+  }
+}
+@media (max-width: 550px) {
+  nav ul {
+    justify-content: space-evenly;
+    font-size: 3.2vw;
+  }
+}
+nav ul a {
+  color: white;
+}
+
+.sessaoSobre {
+  background-color: #FFD9EC;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 550px) {
+  .sessaoSobre {
+    flex-direction: column-reverse;
+    height: 70vw;
+  }
+}
+.sessaoSobre p {
+  width: 38vw;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  .sessaoSobre p {
+    font-size: 2vw;
+    width: 45vw;
+  }
+}
+@media (max-width: 550px) {
+  .sessaoSobre p {
+    width: 75vw;
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 400px) {
+  .sessaoSobre p {
+    font-size: 3.5px;
+  }
+}
+.sessaoSobre img {
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .sessaoSobre img {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .sessaoSobre img {
+    width: 35vw;
+  }
+}
+@media (max-width: 400px) {
+  .sessaoSobre img {
+    width: 45vw;
+  }
+}
+
+.sessaoConscientizacao {
+  border: solid red 2px;
+  height: 45vh;
+  background-color: #ff69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70vh;
+}
+@media (max-width: 550px) {
+  .sessaoConscientizacao {
+    flex-direction: column;
+    height: 70vw;
+  }
+}
+.sessaoConscientizacao p {
+  color: white;
+  width: 35vw;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  .sessaoConscientizacao p {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .sessaoConscientizacao p {
+    width: 35vw;
+  }
+}
+@media (max-width: 400px) {
+  .sessaoConscientizacao p {
+    width: 45vw;
+  }
+}
+.sessaoConscientizacao img {
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .sessaoConscientizacao img {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .sessaoConscientizacao img {
+    width: 35vw;
+  }
+}
+@media (max-width: 400px) {
+  .sessaoConscientizacao img {
+    width: 45vw;
+  }
+}/*# sourceMappingURL=style.css.map */

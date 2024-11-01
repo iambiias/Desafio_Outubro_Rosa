@@ -154,7 +154,6 @@ nav ul a {
 }
 
 .sessaoConscientizacao {
-  border: solid red 2px;
   height: 45vh;
   background-color: #ff69B4;
   display: flex;
@@ -205,4 +204,27 @@ nav ul a {
   .sessaoConscientizacao img {
     width: 45vw;
   }
+}
+
+.sessaoDicas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FFD9EC;
+  height: 55vh;
+}
+
+footer {
+  background-color: #ff69B4;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+}
+
+footer .divImgsFooter {
+  display: flex;
+  gap: 15px;
+  margin-left: -40px;
 }/*# sourceMappingURL=style.css.map */
